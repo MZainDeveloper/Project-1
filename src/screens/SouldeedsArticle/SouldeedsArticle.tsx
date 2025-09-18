@@ -128,7 +128,7 @@ export const SouldeedsArticle = (): JSX.Element => {
       </header>
 
       {/* Main Content Container */}
-      <div className="max-w-[1500px] mx-auto px-[25px]">
+      <div className="max-w-[1500px] mx-auto">
         {/* Featured Article Section */}
         <section className="flex flex-col items-start gap-[5px] mt-[87px] mb-[34px]">
           <div className="relative h-[51px] [font-family:'Inter',Helvetica] font-bold text-transparent text-[40px] tracking-[0] leading-[45.6px] whitespace-nowrap">
