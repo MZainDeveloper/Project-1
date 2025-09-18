@@ -373,12 +373,7 @@ export const SouldeedsArticle = (): JSX.Element => {
         </section>
 
         {/* Newsletter Section */}
-        <section className="flex gap-[82px] items-center mb-[116px]">
-          <img
-            className="w-[536px] h-[357px] object-cover"
-            alt="Image"
-            src="/image-81.svg"
-          />
+        <section className="flex gap-[82px] items-center mb-[116px] w-[536px] h-[357px] bg-[url('/vector.svg')] bg-cover bg-center bg-no-repeat relative">
           <div className="flex flex-col">
             <div className="[font-family:'Inter',Helvetica] font-medium text-[#393939] text-xl tracking-[0] leading-[22.8px] whitespace-nowrap mb-[66px]">
               Get Our Weekly
